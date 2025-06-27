@@ -24,35 +24,35 @@ const Hero = () => {
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl mx-auto">
-          <p className="text-primary font-medium animate-fade-in">Hello, my name is</p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mt-6 animate-fade-in flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4" style={{ animationDelay: '0.1s' }}>
-            <span className="text-gradient text-4xl sm:text-5xl md:text-6xl lg:text-7xl">Keshav Aggarwal</span>
-            <span className="bg-primary/10 text-primary text-xs sm:text-sm py-1 px-2 rounded inline-block sm:hidden md:inline-block">dev</span>
+        <div className="max-w-4xl mx-auto text-center sm:text-left">
+          <p className="text-primary font-medium animate-fade-in text-sm sm:text-base">Hello, my name is</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mt-4 sm:mt-6 animate-fade-in flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4" style={{ animationDelay: '0.1s' }}>
+            <span className="text-gradient text-3xl sm:text-4xl md:text-5xl lg:text-7xl">Keshav Aggarwal</span>
+            <span className="bg-primary/10 text-primary text-xs sm:text-sm py-1 px-2 rounded inline-block">dev</span>
           </h1>
-          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold mt-4 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold mt-3 sm:mt-4 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
             First-Year Web Developer
           </h2>
-          <div className="mt-6">
-            <div className="font-mono text-sm md:text-base text-muted-foreground bg-secondary/50 p-3 rounded-md border border-accent/20 animate-fade-in" style={{ animationDelay: '0.3s' }}>
+          <div className="mt-4 sm:mt-6">
+            <div className="font-mono text-xs sm:text-sm md:text-base text-muted-foreground bg-secondary/50 p-3 sm:p-4 rounded-md border border-accent/20 animate-fade-in overflow-x-auto" style={{ animationDelay: '0.3s' }}>
               <span className="text-accent">const</span> <span className="text-primary">passions</span> = [<span className="text-accent">'coding'</span>, <span className="text-accent">'coffee'</span>, <span className="text-accent">'books'</span>];
             </div>
           </div>
           
-          <div className="mt-8 flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <Button asChild className="bg-primary hover:bg-primary/80 text-primary-foreground hover-glow">
+          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in items-center sm:items-start" style={{ animationDelay: '0.4s' }}>
+            <Button asChild className="bg-primary hover:bg-primary/80 text-primary-foreground hover-glow w-full sm:w-auto touch-target">
               <a href="#projects">View My Projects</a>
             </Button>
-            <Button asChild variant="outline" className="border-primary text-foreground hover:text-primary hover-lift">
+            <Button asChild variant="outline" className="border-primary text-foreground hover:text-primary hover-lift w-full sm:w-auto touch-target">
               <a href="#contact">Get In Touch</a>
             </Button>
           </div>
           
-          <div className="mt-8 sm:mt-12 flex items-center justify-center sm:justify-start gap-6 animate-fade-in" style={{ animationDelay: '0.5s' }}>
-            <a href="https://github.com/k-keshav-aggarwal" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift">
+          <div className="mt-6 sm:mt-8 lg:mt-12 flex items-center justify-center sm:justify-start gap-6 animate-fade-in" style={{ animationDelay: '0.5s' }}>
+            <a href="https://github.com/k-keshav-aggarwal" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift touch-target" aria-label="GitHub Profile">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/agg-keshav" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift">
+            <a href="https://linkedin.com/agg-keshav" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift touch-target" aria-label="LinkedIn Profile">
               <Linkedin size={24} />
             </a>
           </div>

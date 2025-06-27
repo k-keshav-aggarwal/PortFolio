@@ -129,4 +129,70 @@
   .hover-glow:hover {
     box-shadow: 0 0 15px hsl(var(--primary) / 0.6);
   }
+  
+  /* Responsive helper classes */
+  .responsive-text {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+  
+  .responsive-heading {
+    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+  }
+  
+  .responsive-container {
+    @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
+  }
+  
+  /* Enhanced glass card for better mobile visibility */
+  .glass-card-enhanced {
+    @apply bg-secondary/40 backdrop-blur-lg border border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.3)] rounded-lg;
+  }
+  
+  /* Mobile-first responsive grid */
+  .responsive-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
+  }
+  
+  /* Better touch targets for mobile */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+  
+  /* Responsive typography scale */
+  .text-responsive-xs { @apply text-xs sm:text-sm; }
+  .text-responsive-sm { @apply text-sm sm:text-base; }
+  .text-responsive-base { @apply text-base sm:text-lg; }
+  .text-responsive-lg { @apply text-lg sm:text-xl; }
+  .text-responsive-xl { @apply text-xl sm:text-2xl; }
+  .text-responsive-2xl { @apply text-2xl sm:text-3xl md:text-4xl; }
+  .text-responsive-3xl { @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl; }
+  
+  /* Line clamping utility */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  
+  /* Smooth scroll behavior */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 }

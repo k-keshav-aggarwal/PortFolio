@@ -25,20 +25,20 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-background">
+    <section id="skills" className="py-16 sm:py-20 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-2 text-gradient">Skills & Technologies</h2>
-        <div className="h-1 w-20 bg-primary mb-12"></div>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-2 text-gradient">Skills & Technologies</h2>
+        <div className="h-1 w-20 bg-primary mb-8 sm:mb-12"></div>
         
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div>
-            <h3 className="text-xl font-semibold mb-6">Front-end Development</h3>
-            <div className="space-y-6">
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Front-end Development</h3>
+            <div className="space-y-4 sm:space-y-6">
               {frontendSkills.map((skill) => (
                 <div key={skill.name}>
                   <div className="flex justify-between mb-2">
-                    <span>{skill.name}</span>
-                    <span className="text-primary">{skill.level}%</span>
+                    <span className="text-sm sm:text-base">{skill.name}</span>
+                    <span className="text-primary text-sm sm:text-base">{skill.level}%</span>
                   </div>
                   <Progress value={skill.level} className="h-2" />
                 </div>
@@ -47,13 +47,13 @@ const Skills = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold mb-6">Other Skills</h3>
-            <div className="space-y-6">
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 mt-8 lg:mt-0">Other Skills</h3>
+            <div className="space-y-4 sm:space-y-6">
               {otherSkills.map((skill) => (
                 <div key={skill.name}>
                   <div className="flex justify-between mb-2">
-                    <span>{skill.name}</span>
-                    <span className="text-primary">{skill.level}%</span>
+                    <span className="text-sm sm:text-base">{skill.name}</span>
+                    <span className="text-primary text-sm sm:text-base">{skill.level}%</span>
                   </div>
                   <Progress value={skill.level} className="h-2" />
                 </div>
@@ -62,13 +62,13 @@ const Skills = () => {
           </div>
         </div>
         
-        <div className="mt-16">
-          <h3 className="text-xl font-semibold mb-6">Tools & Technologies</h3>
-          <div className="flex flex-wrap gap-3">
+        <div className="mt-12 sm:mt-16">
+          <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">Tools & Technologies</h3>
+          <div className="flex flex-wrap gap-2 sm:gap-3">
             {technologies.map((tech) => (
               <span 
                 key={tech} 
-                className="px-4 py-2 bg-secondary/50 rounded-full text-sm border border-white/5 hover:border-primary/50 transition-colors"
+                className="px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary/50 rounded-full text-xs sm:text-sm border border-white/5 hover:border-primary/50 transition-colors"
               >
                 {tech}
               </span>
