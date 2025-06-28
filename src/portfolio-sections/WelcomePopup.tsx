@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { X, Code, Coffee, BookOpen, Terminal } from 'lucide-react';
 import { Button } from './ui/button';
@@ -7,11 +6,9 @@ const WelcomePopup = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    // Check if popup has been shown before in this session
     const hasSeenPopup = sessionStorage.getItem('hasSeenWelcomePopup');
     
     if (!hasSeenPopup) {
-      // Show popup after a short delay
       const timer = setTimeout(() => {
         setIsVisible(true);
       }, 1000);
@@ -22,7 +19,6 @@ const WelcomePopup = () => {
 
   const handleClose = () => {
     setIsVisible(false);
-    // Mark popup as seen for this session
     sessionStorage.setItem('hasSeenWelcomePopup', 'true');
   };
 

@@ -9,21 +9,21 @@ const Publications = () => {
       journal: "Mystery Fiction",
       date: "December 2024 - Present",
       description: "This novel interweaves themes of friendship, love, and the power of second chances with the chilling allure of hidden secrets and a shadowy past.",
-      link: "https://example.com/publication1"
+      link: "https://wattpad.com/keshav-aggarwal/manors-secret"
     },
     {
       title: "The Women Clad in Blue",
       journal: "Mystery Fiction Romance",
       date: "September 2024 - Present",
-      description: ".",
-      link: "https://example.com/publication2"
+      description: "A compelling mystery romance that follows the investigation of a series of connected incidents involving women dressed in blue, revealing deeper conspiracies.",
+      link: "https://wattpad.com/keshav-aggarwal/women-clad-blue"
     },
     {
       title: "Kiem's Unsolved Mysteries",
       journal: "Mystery Fiction",
       date: "September 2024",
-      description: ".",
-      link: "https://example.com/publication3"
+      description: "A collection of unsolved mystery cases investigated by detective Kiem, featuring intricate plots and unexpected revelations.",
+      link: "https://wattpad.com/keshav-aggarwal/kiems-mysteries"
     }
   ];
 

@@ -14,42 +14,42 @@ const Projects = () => {
     },
     {
       title: "EcoSortAI",
-      description: ".",
+      description: "An AI-powered waste sorting application that helps users categorize different types of waste for proper disposal and recycling.",
       technologies: ["JavaScript", "API Integration", "CSS"],
       github: "https://github.com/k-keshav-aggarwal/ecosortai",
-      liveDemo: "https://weather-app.example.com",
+      liveDemo: "https://ecosortai.vercel.app",
       image: "/placeholder.svg"
     },
     {
       title: "Education Website Template",
-      description: "A full-stack task management application with user authentication, task creation, and organization features.",
+      description: "A responsive educational website template with modern design, course sections, and interactive features for academic institutions.",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/k-keshav-aggarwal/Educational-Website-Template",
-      liveDemo: "https://task-manager.example.com",
+      liveDemo: "https://educational-template.vercel.app",
       image: "/placeholder.svg"
     },
     {
       title: "Tic-Tac-Toe Game",
-      description: "A responsive e-commerce website with product catalog, shopping cart, and checkout functionality.",
+      description: "A classic interactive Tic-Tac-Toe game built with React featuring clean UI, game state management, and winning logic.",
       technologies: ["React", "CSS", "State Management"],
       github: "https://github.com/k-keshav-aggarwal/TIC-TAC-TOE",
-      liveDemo: "https://ecommerce.example.com",
+      liveDemo: "https://tictactoe-keshav.vercel.app",
       image: "/placeholder.svg"
     },
     {
       title: "StopWatch",
-      description: "An interactive quiz application with multiple categories, timer, and score tracking.",
+      description: "A precise digital stopwatch application with start, stop, reset functionality and lap time tracking capabilities.",
       technologies: ["JavaScript", "HTML", "CSS"],
       github: "https://github.com/k-keshav-aggarwal/StopWatch",
-      liveDemo: "https://quiz-app.example.com",
+      liveDemo: "https://stopwatch-keshav.vercel.app",
       image: "/placeholder.svg"
     },
     {
       title: "MLSC Tech Fest-2025 Sponsors Page",
-      description: "A blog platform wit2me/blog-platform",
+      description: "A professional sponsors page for MLSC Tech Fest 2025 featuring sponsor showcases and partnership information.",
       technologies: ["React", "Node.js", "MongoDB"],
       github: "https://github.com/k-keshav-aggarwal/makeathon7-website",
-      liveDemo: "https://blog-platform.example.com",
+      liveDemo: "https://makeathon7.vercel.app",
       image: "/placeholder.svg"
     }
   ];

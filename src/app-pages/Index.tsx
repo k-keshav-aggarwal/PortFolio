@@ -17,6 +17,7 @@ import References from '@/portfolio-sections/References';
 import Contact from '@/portfolio-sections/Contact';
 import Footer from '@/portfolio-sections/Footer';
 import WelcomePopup from '@/portfolio-sections/WelcomePopup';
+import Chat from '../Chat';
 
 const Index = () => {
   return (
@@ -37,6 +38,7 @@ const Index = () => {
       <Hobbies />
       <Languages />
       <References />
+      <Chat />
       <Contact />
       <Footer />
     </div>

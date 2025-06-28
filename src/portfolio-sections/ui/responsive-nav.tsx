@@ -31,7 +31,6 @@ export const ResponsiveNav = ({ navLinks, className }: ResponsiveNavProps) => {
     });
   };
 
-  // Close mobile menu when clicking outside or pressing escape
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (mobileMenuOpen && !(event.target as Element).closest('.mobile-nav-container')) {
@@ -54,7 +53,6 @@ export const ResponsiveNav = ({ navLinks, className }: ResponsiveNavProps) => {
     };
   }, [mobileMenuOpen]);
 
-  // Prevent body scroll when mobile menu is open
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -80,7 +78,6 @@ export const ResponsiveNav = ({ navLinks, className }: ResponsiveNavProps) => {
             <span className="text-foreground ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Dev</span>
           </a>
 
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
             {navLinks.map((link) => (
               <a
@@ -93,7 +90,6 @@ export const ResponsiveNav = ({ navLinks, className }: ResponsiveNavProps) => {
             ))}
           </nav>
 
-          {/* Mobile Menu Button */}
           <div className="mobile-nav-container z-50">
             <Button 
               variant="ghost" 
@@ -108,13 +104,10 @@ export const ResponsiveNav = ({ navLinks, className }: ResponsiveNavProps) => {
           </div>
         </div>
 
-        {/* Mobile Navigation Menu */}
         {mobileMenuOpen && (
           <>
-            {/* Backdrop */}
             <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-40 md:hidden animate-fade-in" />
             
-            {/* Menu Content */}
             <div className="mobile-nav-container fixed top-0 left-0 right-0 md:hidden glass-card border-b border-white/10 animate-fade-in z-40 pt-20">
               <nav className="container mx-auto px-4 py-6 flex flex-col space-y-1">
                 {navLinks.map((link) => (
@@ -133,7 +126,6 @@ export const ResponsiveNav = ({ navLinks, className }: ResponsiveNavProps) => {
         )}
       </header>
 
-      {/* Scroll to Top Button */}
       {showScrollTop && (
         <Button
           onClick={scrollToTop}

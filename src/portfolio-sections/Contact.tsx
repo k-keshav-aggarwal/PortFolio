@@ -8,9 +8,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // In a real implementation, you would handle form submission here
     console.log("Form submitted!");
-    // Show a success message or toast notification
   };
 
   return (

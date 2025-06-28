@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/portfolio-sections/ui/tooltip";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./app-pages/Index";
 import NotFound from "./app-pages/NotFound";
+import Chat from "./Chat";
 
 const App = () => (
   <TooltipProvider>
@@ -12,7 +13,7 @@ const App = () => (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
-        {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+        <Route path="/chat" element={<Chat />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
