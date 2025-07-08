@@ -1,5 +1,6 @@
 // gemini-local-proxy/server.js
-require('dotenv').config(); // Load environment variables from .env file
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', '.env') }); // Load from parent directory
 
 const express = require('express');
 const cors = require('cors');
