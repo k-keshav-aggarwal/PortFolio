@@ -6,7 +6,7 @@ const cors = require('cors');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const app = express();
-const port = 3000; // The port your proxy server will listen on
+const port = process.env.PORT || 3000; // Use environment port or fallback to 3000
 
 // Configure CORS to allow requests from your React frontend
 app.use(cors({
