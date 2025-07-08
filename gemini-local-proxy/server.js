@@ -6,11 +6,18 @@ const cors = require('cors');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 const app = express();
-const port = 3001; // The port your proxy server will listen on
+const port = 3000; // The port your proxy server will listen on
 
 // Configure CORS to allow requests from your React frontend
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5173', 'http://localhost:4173', 'http://localhost:8080', 'http://localhost:8081'] // Support multiple common dev server ports
+    origin: [
+        'http://localhost:3000',
+        'http://localhost:5173',
+        'http://localhost:4173',
+        'http://localhost:8080',
+        'http://localhost:8081',
+        'https://ka-pf.vercel.app'
+    ] // Support local dev and production domain
 }));
 app.use(express.json()); // Enable JSON body parsing for incoming requests
 
