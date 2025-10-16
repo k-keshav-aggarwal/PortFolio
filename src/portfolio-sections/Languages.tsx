@@ -5,29 +5,7 @@ import { Progress } from "@/portfolio-sections/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/portfolio-sections/ui/tabs";
 
 const Languages = () => {
-  const humanLanguages = [
-    {
-      name: "English",
-      proficiency: "Fluent",
-      level: 88
-    },
-    {
-      name: "Hindi",
-      proficiency: "Native",
-      level: 100
-    }
-    // {
-    //   name: "Spanish",
-    //   proficiency: "Intermediate",
-    //   level: 65
-    // },
-    // {
-    //   name: "French",
-    //   proficiency: "Beginner",
-    //   level: 30
-    // }
-  ];
-
+  
   const programmingLanguages = [
     {
       name: "JavaScript",
@@ -73,6 +51,19 @@ const Languages = () => {
       name: "C",
       proficiency: "Beginner",
       level: 50
+    }
+  ];
+
+  const humanLanguages = [
+    {
+      name: "English",
+      proficiency: "Fluent",
+      level: 88
+    },
+    {
+      name: "Hindi",
+      proficiency: "Native",
+      level: 100
     }
   ];
 

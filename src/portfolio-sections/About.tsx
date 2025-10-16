@@ -11,7 +11,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center">
           <div>
             <p className="text-base sm:text-lg mb-4 sm:mb-6">
-              Hello! I'm Keshav Aggarwal, a passionate and dedicated first-year Computer Science student with an unwavering focus on modern web development and software engineering. My coding journey began during high school when I first discovered the magic of HTML and CSS, and since then, I've been completely captivated by the endless possibilities of technology and its power to create meaningful digital experiences.
+              Hello! I'm Keshav Aggarwal, a passionate and dedicated Second-year Computer Science student with an unwavering focus on modern web development and software engineering. My coding journey began during high school when I first discovered the magic of HTML and CSS, and since then, I've been completely captivated by the endless possibilities of technology and its power to create meaningful digital experiences.
             </p>
             
             <p className="text-base sm:text-lg mb-4 sm:mb-6">
@@ -31,7 +31,7 @@ const About = () => {
                 <h3 className="font-bold mb-3 sm:mb-4 text-lg sm:text-xl text-primary">Education</h3>
                 <p className="text-sm sm:text-base text-muted-foreground">B.Tech. Computer Science</p>
                 <p className="text-sm sm:text-base">Thapar Institute of Engineering and Technology</p>
-                <p className="text-xs sm:text-sm text-muted-foreground mt-2">2024 - Present</p>
+                <p className="text-xs sm:text-sm text-muted-foreground mt-2">August 2024 - Present</p>
               </CardContent>
             </Card>
             

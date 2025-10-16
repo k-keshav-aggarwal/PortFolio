@@ -1,27 +1,31 @@
-
-
 import { Briefcase } from 'lucide-react';
 
 const WorkExperience = () => {
   const experiences = [
+    {
+      title: "Freelance Web Developer",
+      company: "Self-employed",
+      period: "April 2025 - Present",
+      description: "Design and develop websites for small businesses and individuals. Create custom solutions tailored to client needs. Implement responsive designs and ensure cross-browser compatibility."
+    },
+    {
+      title: "R&D Team Leader",
+      company: "Microsoft Student Learn Chapter, TIET",
+      period: "April 2025 - September 2025",
+      description: "Handled a team of Interns to Handel the Research and Development Department of the Company"
+    },
+    {
+      title: "Executive Member",
+      company: "Microsoft Student Learn Chapter, TIET",
+      period: "September 2024 - September 2025",
+      description: "CLub Member contributing to projects and events"
+    },
     {
       title: "Content Intern",
       company: "StudifySuccess",
       period: "December 2024 - January 2025",
       description: "Drafting Blog Posts & Articles: Researching topics, creating outlines, writing engaging content."
     },
-    {
-      title: "Executive Member",
-      company: "Microsoft Student Learn Chapter, TIET",
-      period: "Sep 2024 - Present",
-      description: "."
-    },
-    {
-      title: "Freelance Web Developer",
-      company: "Self-employed",
-      period: "April 2025 - Present",
-      description: "Design and develop websites for small businesses and individuals. Create custom solutions tailored to client needs. Implement responsive designs and ensure cross-browser compatibility."
-    }
   ];
 
   return (

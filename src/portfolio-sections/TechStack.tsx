@@ -15,6 +15,14 @@ const TechStack = () => {
       ]
     },
     {
+      name: "Languages",
+      technologies: [
+        { name: "C++", level: "Intermediate" },
+        { name: "C", level: "Intermediate" },
+        { name: "Java", level: "Beginner" },
+      ]
+    },
+    {
       name: "Backend",
       technologies: [
         { name: "Node.js", level: "Beginner" },
@@ -30,6 +38,14 @@ const TechStack = () => {
         { name: "npm", level: "Intermediate" },
         { name: "Figma", level: "Intermediate" },
         { name: "Responsive Design", level: "Advanced" },
+      ]
+    },
+    {
+      name: "Softwares",
+      technologies: [
+        { name: "SolidWorks", level: "Intermediate" },
+        { name: "AutoCad", level: "Intermediate"},
+        { name: "TinkerCad", level: "Intermediate"},
       ]
     }
   ];

@@ -39,8 +39,8 @@ const WelcomePopup = () => {
         </div>
         
         <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-typing">
-          <span className="text-gradient">Hello World!</span> <br />
-          <span className="text-xl md:text-2xl mt-2 block opacity-90">I'm a Developer Who Loves Coding, Coffee, and Books</span>
+          <span className="text-gradient">Hello Visitor!</span> <br />
+          <span className="text-xl md:text-2xl mt-2 block opacity-90">I'm a Developer who loves Coding, Coffee, and Books</span>
         </h1>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">

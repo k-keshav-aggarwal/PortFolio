@@ -8,7 +8,7 @@ const Education = () => {
       degree: "Bachelor of Technology in Computer Enginnering",
       institution: "Thapar Institute of Engineering and Technology",
       period: "2024 - Present",
-      description: "First-year student focusing on computer science fundamentals, data structures, and web development technologies. Active member of the coding club and web development society."
+      description: "Secons-year student focusing on computer science fundamentals, data structures, and web development technologies. Active member of the coding club and web development society."
     },
     {
       degree: "Senior Secondary",

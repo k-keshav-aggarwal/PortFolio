@@ -38,7 +38,6 @@ const Header = () => {
           <span className="text-foreground ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Dev</span>
         </a>
 
-        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
           {navLinks.map((link) => (
             <a
@@ -51,7 +50,6 @@ const Header = () => {
           ))}
         </nav>
 
-        {/* Mobile Menu Button */}
         <Button 
           variant="ghost" 
           size="icon" 
@@ -62,7 +60,6 @@ const Header = () => {
         </Button>
       </div>
 
-      {/* Mobile Navigation Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden glass-card border-t border-white/10 animate-fade-in">
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">

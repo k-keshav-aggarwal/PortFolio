@@ -28,10 +28,11 @@ const Hero = () => {
           <p className="text-primary font-medium animate-fade-in text-sm sm:text-base">Hello, my name is</p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mt-4 sm:mt-6 animate-fade-in flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4" style={{ animationDelay: '0.1s' }}>
             <span className="text-gradient text-3xl sm:text-4xl md:text-5xl lg:text-7xl">Keshav Aggarwal</span>
+            <span>\t</span>
             <span className="bg-primary/10 text-primary text-xs sm:text-sm py-1 px-2 rounded inline-block">dev</span>
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold mt-3 sm:mt-4 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            First-Year Web Developer
+            Second-Year Web Developer
           </h2>
           <div className="mt-4 sm:mt-6">
             <div className="font-mono text-xs sm:text-sm md:text-base text-muted-foreground bg-secondary/50 p-3 sm:p-4 rounded-md border border-accent/20 animate-fade-in overflow-x-auto" style={{ animationDelay: '0.3s' }}>

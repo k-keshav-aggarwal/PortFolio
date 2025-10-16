@@ -10,15 +10,15 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS", "Responsive Design"],
       github: "https://github.com/k-keshav-aggarwal/portfolio",
       liveDemo: "https://keshavpf.vercel.app/",
-      image: "/placeholder.svg"
+      image: "/Portfolio.png"
     },
     {
       title: "EcoSortAI",
       description: "An AI-powered waste sorting application that helps users categorize different types of waste for proper disposal and recycling.",
       technologies: ["JavaScript", "API Integration", "CSS"],
-      github: "https://github.com/k-keshav-aggarwal/ecosortai",
-      liveDemo: "https://ecosortai.vercel.app",
-      image: "/placeholder.svg"
+      github: "https://github.com/k-keshav-aggarwal/EcoSortAI",
+      liveDemo: "https://eco-sort-ai.vercel.app/",
+      image: "/EcoSort.png"
     },
     {
       title: "Education Website Template",
