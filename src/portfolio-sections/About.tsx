@@ -11,7 +11,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start lg:items-center">
           <div>
             <p className="text-base sm:text-lg mb-4 sm:mb-6">
-              Hello! I'm Keshav Aggarwal, a passionate and dedicated first-year Computer Science student with an unwavering focus on modern web development and software engineering. My coding journey began during high school when I first discovered the magic of HTML and CSS, and since then, I've been completely captivated by the endless possibilities of technology and its power to create meaningful digital experiences.
+              Hello! I'm Keshav Aggarwal, a passionate and dedicated Second year Computer Science student with an unwavering focus on modern web development and software engineering. My coding journey began during high school when I first discovered the magic of HTML and CSS, and since then, I've been completely captivated by the endless possibilities of technology and its power to create meaningful digital experiences.
             </p>
             
             <p className="text-base sm:text-lg mb-4 sm:mb-6">
