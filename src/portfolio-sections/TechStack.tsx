@@ -14,12 +14,11 @@ const TechStack = () => {
         { name: "Tailwind CSS", level: "Advanced" },
       ]
     },
-    {
-      name: "Backend",
+        {
+      name: "Softwares",
       technologies: [
-        { name: "Node.js", level: "Beginner" },
-        { name: "Express", level: "Beginner" },
-        { name: "MongoDB", level: "Beginner" },
+        { name: "AutoCad" , level: "Intermediate"},
+        { name: "Solidworks" , level: "Intermediate"},
       ]
     },
     {
@@ -33,11 +32,13 @@ const TechStack = () => {
       ]
     },
     {
-      name: "Softwares",
+      name: "Backend",
       technologies: [
-        { name: "Solidworks" , level: "Intermediate"},
+        { name: "Node.js", level: "Beginner" },
+        { name: "Express", level: "Beginner" },
+        { name: "MongoDB", level: "Beginner" },
       ]
-    }
+    },
   ];
 
   return (

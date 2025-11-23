@@ -3,68 +3,105 @@
 import { Award } from 'lucide-react';
 
 const Certificates = () => {
-  const certificates = [
-    {
-      name: "Minecraft Education Session on AI",
-      issuer: "Microsoft Learn Student Ambassador",
-      date: "April 2025",
-      description: "Recognized for attendance and completion of the MLSA workshop on hands-on Minecraft Education session on AI."
-    },
-    {
-      name: "T-Sustainathon Best Proposal",
-      issuer: "Thapar Institute Of Engineering and Technology",
-      date: "March 2025",
-      description: "Certificate of Award for the Best Proposal."
-    },
-    {
-      name: "Synapse 2025",
-      issuer: "Gene Society Thapar",
-      date: "February 2025",
-      description: "Winner of the Synapse 2025 Ideathon organized by Gene Society Thapar."
-    },
-    {
-      name: "Android App Development Training Program",
-      issuer: "Humble Coders",
-      date: "February 2025",
-      description: "Completing 5 days Android App Development training program and successfully building 3 project apps."
-    },
-    {
-      name: "Member Of the Organizing Team",
-      issuer: "Humble Coders and Head, CSED Thapar",
-      date: "February 2025",
-      description: "In recognition of Valuable contribution as a member of the organizing team for the conduction of Android App Development Workshop held by Humble Coders."
-    },
-    {
-      name: "Enhancing Social Intelligence: Interpersonal Skills",
-      issuer: "De'Talk",
-      date: "August 2024",
-      description: "https://detalks.com/certificates/35cd778f-a672-49a3-a262-7c1950825e59"
-    },
-    {
-      name: "Mstering Executive Skills",
-      issuer: "De'Talk",
-      date: "August 2024",
-      description: "https://detalks.com/certificates/774bc435-b521-4452-a81f-22a421df792b"
-    },
-    {
-      name: "Optimising Your Quality Of Life",
-      issuer: "De'Talk",
-      date: "August 2024",
-      description: "https://detalks.com/certificates/598d4ef1-615c-4c9c-adab-29f7866a2d79"
-    },
-    {
-      name: "Stress Mastery Workshop: Building Your Coping Skills",
-      issuer: "De'Talk",
-      date: "August 2024",
-      description: "https://detalks.com/certificates/9de051fb-f5c7-464b-acc8-5f6ae3aa4bb6"
-    },
-    {
-      name: "Understanding and Appllying Your Big Five Personality Traits",
-      issuer: "De'Talk",
-      date: "August 2024",
-      description: "https://detalks.com/certificates/8d8d25dd-a668-4de0-a664-ec35509c7039"
-    },
-  ];
+const certificates = [
+  {
+    name: "BIOS Hackathon v1.0 - Track: Overclocked",
+    issuer: "Department of Computer Science & Engineering, TIET with IEEE Student Branch TIET",
+    date: "November 2025",
+    description: "Secured 1st position in the Overclocked track at BIOS Hackathon v1.0."
+  },
+  {
+    name: "GitHub Advanced Security (Part 1)",
+    issuer: "GitHub",
+    date: "July 2025",
+    description: "Completed part 1 of GitHub Advanced Security fundamentals covering key security workflows and best practices."
+  },
+  {
+    name: "GitHub Fundamentals – Administration Basics",
+    issuer: "GitHub",
+    date: "July 2025",
+    description: "Completed part 1 of GitHub Fundamentals focusing on admin basics, product features, and repository-level management."
+  },
+  {
+    name: "Microsoft AI for Leaders in Sustainability",
+    issuer: "Microsoft",
+    date: "July 2025",
+    description: "Completed Microsoft’s learning program on applying AI to sustainability and environmental leadership."
+  },
+  {
+    name: "AI/ML BootCamp",
+    issuer: "Google Developer Groups TIET",
+    date: "April 2025",
+    description: "Completed the AI/ML BootCamp organized by GDG TIET."
+  },
+  {
+    name: "Cryptic Hunt'25",
+    issuer: "United Latino Students Association",
+    date: "April 2025",
+    description: "Participated in Cryptic Hunt'25 organized by ULSA."
+  },
+  {
+    name: "Microsoft Learn Student Chapter Certifications",
+    issuer: "Microsoft Learn Student Ambassadors",
+    date: "April 2025",
+    description: "Completed MLSA certifications focused on AI and Prompt Engineering."
+  },
+  {
+    name: "Prompt Engineering Workshop",
+    issuer: "Microsoft Learn Student Ambassadors",
+    date: "April 2025",
+    description: "Completed the Prompt Engineering workshop conducted under the MLSA chapter."
+  },
+  {
+    name: "Minecraft Education Session on AI",
+    issuer: "Microsoft Learn Student Ambassadors",
+    date: "April 2025",
+    description: "Completed the MLSA workshop on Minecraft Education and artificial intelligence."
+  },
+  {
+    name: "T-Sustainathon Best Proposal",
+    issuer: "Thapar Institute of Engineering and Technology",
+    date: "March 2025",
+    description: "Awarded for presenting the best proposal at T-Sustainathon 2025."
+  },
+  {
+    name: "Synapse 2025",
+    issuer: "GENE Society TIET",
+    date: "February 2025",
+    description: "Secured 1st position in Synapse 2025, the ideathon organized by GENE Society TIET."
+  },
+  {
+    name: "Android App Development Training Program",
+    issuer: "Humble Coders",
+    date: "February 2025",
+    description: "Completed a 5-day Android App Development workshop and built 3 functional applications."
+  },
+  {
+    name: "Organizing Team – Android App Development Program",
+    issuer: "Humble Coders & CSED Department, TIET",
+    date: "February 2025",
+    description: "Recognized for contribution as a member of the organizing team for the Android App Development Workshop."
+  },
+  {
+    name: "Experiential Learning Activities (ELC)",
+    issuer: "Thapar Institute of Engineering & Technology",
+    date: "January 2025",
+    description: "Completed hands-on modules involving Tinkercad, Arduino IDE, and Python programming."
+  },
+  {
+    name: "Microsoft Learning Paths (1 to 14)",
+    issuer: "Microsoft",
+    date: "January 2025",
+    description: "Completed the entire series of Microsoft Learning Paths across technology, productivity, and cloud modules."
+  },
+  {
+    name: "De'Talk Personal & Professional Development Certifications",
+    issuer: "De'Talk",
+    date: "August 2024",
+    description:
+      "Completed a series of De'Talk development workshops covering interpersonal skills, executive skills, stress mastery, personality development, and quality-of-life improvement."
+  }
+];
 
   return (
     <section id="certificates" className="py-20 bg-background/50">
