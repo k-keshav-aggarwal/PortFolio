@@ -21,7 +21,7 @@ const Skills = () => {
 
   const technologies = [
     "VSCode", "npm", "Webpack", "Figma", "Chrome DevTools", 
-    "GitHub Pages", "Netlify", "Jest", "ESLint", "Prettier"
+    "GitHub Pages", "ESLint", "Prettier"
   ];
 
   return (

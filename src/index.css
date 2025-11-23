@@ -143,22 +143,18 @@
     @apply px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto;
   }
   
-  /* Enhanced glass card for better mobile visibility */
   .glass-card-enhanced {
     @apply bg-secondary/40 backdrop-blur-lg border border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.3)] rounded-lg;
   }
   
-  /* Mobile-first responsive grid */
   .responsive-grid {
     @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
   }
   
-  /* Better touch targets for mobile */
   .touch-target {
     @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
   }
   
-  /* Responsive typography scale */
   .text-responsive-xs { @apply text-xs sm:text-sm; }
   .text-responsive-sm { @apply text-sm sm:text-base; }
   .text-responsive-base { @apply text-base sm:text-lg; }
@@ -167,7 +163,6 @@
   .text-responsive-2xl { @apply text-2xl sm:text-3xl md:text-4xl; }
   .text-responsive-3xl { @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl; }
   
-  /* Line clamping utility */
   .line-clamp-1 {
     overflow: hidden;
     display: -webkit-box;

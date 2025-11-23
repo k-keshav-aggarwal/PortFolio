@@ -29,7 +29,6 @@ const Hobbies = () => {
       icon: Laptop,
       description: "Creating the perfect ergonomic workspace with the right equipment for productive and comfortable coding sessions."
     },
-    
     {
       name: "Music",
       icon: Headphones,

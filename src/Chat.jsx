@@ -45,7 +45,7 @@ function Chat() {
             ]);
         } catch (error) {
             setError(error.message);
-            setMessages(prev => prev.slice(0, -1)); // Remove last user message
+            setMessages(prev => prev.slice(0, -1));
         } finally {
             setLoading(false);
         }
@@ -53,7 +53,6 @@ function Chat() {
 
     return (
         <>
-            {/* Floating Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 style={{
@@ -75,7 +74,6 @@ function Chat() {
                 💬
             </button>
 
-            {/* Chat Window */}
             {isOpen && (
                 <div style={{
                     position: 'fixed',

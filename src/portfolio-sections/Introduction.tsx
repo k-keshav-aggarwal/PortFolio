@@ -13,7 +13,7 @@ const Introduction = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-lg mb-6">
-              Hello! I'm a first-year college student majoring in Computer Science with a passion for web development, 
+              Hello! I'm a Second-year college student majoring in Computer Science with a passion for web development, 
               great coffee, and thought-provoking books. My coding journey began with HTML and CSS, and has since 
               expanded to include JavaScript, React, and various modern web technologies.
             </p>
@@ -31,7 +31,7 @@ const Introduction = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <span className="bg-primary/20 p-1 rounded mr-3 text-primary"><Code size={18} /></span>
-                <span>First-year Computer Science student</span>
+                <span>Second-year Computer Science student</span>
               </li>
               <li className="flex items-start">
                 <span className="bg-primary/20 p-1 rounded mr-3 text-primary"><Code size={18} /></span>

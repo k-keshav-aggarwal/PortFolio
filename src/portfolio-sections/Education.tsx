@@ -7,19 +7,19 @@ const Education = () => {
     {
       degree: "Bachelor of Technology in Computer Enginnering",
       institution: "Thapar Institute of Engineering and Technology",
-      period: "2024 - Present",
-      description: "First-year student focusing on computer science fundamentals, data structures, and web development technologies. Active member of the coding club and web development society."
+      period: "August 2024 - Present",
+      description: "Second-year student focusing on computer science fundamentals, data structures, and web development technologies."
     },
     {
       degree: "Senior Secondary",
       institution: "Rahul Public School",
-      period: "2022 - 2024",
+      period: "July 2022 - July 2024",
       description: "Secured 94.7% Percentile in JEE Mains. Participated in Various Extra Curricular Activities."
     },
     {
       degree: "Matriculation",
       institution: "OP Jindal Modern School",
-      period: "2009 - 2022",
+      period: "February 2009 - June 2022",
       description: "Secured 89.2% in CBSE Class 10. Participated in various extracurricular activities, including science fairs and coding competitions."
     }
   ];

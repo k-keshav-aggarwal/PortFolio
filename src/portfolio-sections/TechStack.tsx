@@ -31,6 +31,12 @@ const TechStack = () => {
         { name: "Figma", level: "Intermediate" },
         { name: "Responsive Design", level: "Advanced" },
       ]
+    },
+    {
+      name: "Softwares",
+      technologies: [
+        { name: "Solidworks" , level: "Intermediate"},
+      ]
     }
   ];
 

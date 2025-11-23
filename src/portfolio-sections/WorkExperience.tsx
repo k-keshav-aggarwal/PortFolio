@@ -5,6 +5,18 @@ import { Briefcase } from 'lucide-react';
 const WorkExperience = () => {
   const experiences = [
     {
+      title: "Freelance Web Developer",
+      company: "Self-employed",
+      period: "January 2025 - Present",
+      description: "Design and develop websites for small businesses and individuals. Create custom solutions tailored to client needs. Implement responsive designs and ensure cross-browser compatibility."
+    },
+    {
+      title: "Research Team Lead",
+      company: "StudifySuccess",
+      period: "April 2025- September 2025",
+      description: "Managing a team of interns in the Reseach and Development Department"
+    },
+    {
       title: "Content Intern",
       company: "StudifySuccess",
       period: "December 2024 - January 2025",
@@ -13,15 +25,9 @@ const WorkExperience = () => {
     {
       title: "Executive Member",
       company: "Microsoft Student Learn Chapter, TIET",
-      period: "Sep 2024 - Present",
-      description: "."
+      period: "Sep 2024 - Septemeber 2025",
+      description: "Worked in the Society as a member"
     },
-    {
-      title: "Freelance Web Developer",
-      company: "Self-employed",
-      period: "April 2025 - Present",
-      description: "Design and develop websites for small businesses and individuals. Create custom solutions tailored to client needs. Implement responsive designs and ensure cross-browser compatibility."
-    }
   ];
 
   return (

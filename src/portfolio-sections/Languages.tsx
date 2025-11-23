@@ -16,16 +16,6 @@ const Languages = () => {
       proficiency: "Native",
       level: 100
     }
-    // {
-    //   name: "Spanish",
-    //   proficiency: "Intermediate",
-    //   level: 65
-    // },
-    // {
-    //   name: "French",
-    //   proficiency: "Beginner",
-    //   level: 30
-    // }
   ];
 
   const programmingLanguages = [
@@ -83,31 +73,17 @@ const Languages = () => {
         <div className="h-1 w-20 bg-primary mb-12"></div>
         
         <div className="max-w-3xl mx-auto">
-          <Tabs defaultValue="human" className="w-full">
+          <Tabs defaultValue="programming" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-10">
-              <TabsTrigger value="human" className="flex items-center gap-2">
-                <Globe size={16} />
-                Human Languages
-              </TabsTrigger>
               <TabsTrigger value="programming" className="flex items-center gap-2">
                 <Code size={16} />
                 Programming Languages
               </TabsTrigger>
+              <TabsTrigger value="human" className="flex items-center gap-2">
+                <Globe size={16} />
+                Human Languages
+              </TabsTrigger>
             </TabsList>
-            
-            <TabsContent value="human" className="space-y-8">
-              {humanLanguages.map((lang, index) => (
-                <div key={index} className="glass-card p-6 rounded-lg">
-                  <div className="flex justify-between items-center mb-2">
-                    <h3 className="text-lg font-semibold">{lang.name}</h3>
-                    <span className="text-sm bg-primary/20 text-primary px-3 py-1 rounded-full">
-                      {lang.proficiency}
-                    </span>
-                  </div>
-                  <Progress value={lang.level} className="h-2" />
-                </div>
-              ))}
-            </TabsContent>
             
             <TabsContent value="programming" className="space-y-8">
               {programmingLanguages.map((lang, index) => (
@@ -122,6 +98,21 @@ const Languages = () => {
                 </div>
               ))}
             </TabsContent>
+
+            <TabsContent value="human" className="space-y-8">
+              {humanLanguages.map((lang, index) => (
+                <div key={index} className="glass-card p-6 rounded-lg">
+                  <div className="flex justify-between items-center mb-2">
+                    <h3 className="text-lg font-semibold">{lang.name}</h3>
+                    <span className="text-sm bg-primary/20 text-primary px-3 py-1 rounded-full">
+                      {lang.proficiency}
+                    </span>
+                  </div>
+                  <Progress value={lang.level} className="h-2" />
+                </div>
+              ))}
+            </TabsContent>
+            
           </Tabs>
         </div>
       </div>

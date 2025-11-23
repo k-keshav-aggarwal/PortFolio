@@ -9,7 +9,31 @@ const Projects = () => {
       description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
       technologies: ["React", "Tailwind CSS", "Responsive Design"],
       github: "https://github.com/k-keshav-aggarwal/portfolio",
-      liveDemo: "https://keshavpf.vercel.app/",
+      liveDemo: "https://ka-pf.vercel.app/",
+      image: "/placeholder.svg"
+    },
+    {
+      title: "Air Quality Index Prediction with Random Forest",
+      description: "An end-to-end supervised AQI prediction model using pollutant indicators such as PM2.5, PM10, NO₂, SO₂, CO, and O₃. Includes preprocessing, feature scaling, Random Forest regression, feature importance analysis, residual diagnostics, and visualization. The model achieved strong generalization validated through RMSE and R² metrics across 5-fold CV, and includes saved artifacts plus a demo interface for real-time AQI prediction.",
+      technologies: ["Pandas", "Python", "Scikit-Learn", "Matplotlib", "NumPy", "Seaborn"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg"
+    },
+    {
+      title: "Student Performance Classification Project With Random Forest",
+      description: "A full ML pipeline predicting student performance using academic and behavioral features. Includes preprocessing, EDA, class balancing (SMOTE), model comparison across Logistic Regression, SVM, Random Forest, and Gradient Boosting. The best model was optimized with GridSearchCV and evaluated using F1-Macro, confusion matrix, and feature importance. Exported as a reusable .pkl file and integrated into an interactive prediction dashboard using ipywidgets.",
+      technologies: ["Pandas", "Python", "Scikit-Learn", "Matplotlib", "NumPy"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg"
+    },
+    {
+      title: "SpieleZone",
+      description: "A full UI overhaul for Spiele Zone, including redesigned layouts, color schemes, typography, responsive behavior, and interactive components. Implemented custom visual feedback, refined navigation across gaming modules, and ensured consistency across devices. Delivered a polished, immersive experience aligned with the gaming aesthetic while maintaining performance and accessibility.",
+      technologies: ["Front-End Development", "Web Development", "UI/UX"],
+      github: "",
+      liveDemo: "https://spiele-zone.vercel.app",
       image: "/placeholder.svg"
     },
     {
@@ -17,7 +41,7 @@ const Projects = () => {
       description: "An AI-powered waste sorting application that helps users categorize different types of waste for proper disposal and recycling.",
       technologies: ["JavaScript", "API Integration", "CSS"],
       github: "https://github.com/k-keshav-aggarwal/ecosortai",
-      liveDemo: "https://ecosortai.vercel.app",
+      liveDemo: "https://eco-sort-ai.vercel.app/",
       image: "/placeholder.svg"
     },
     {
@@ -25,7 +49,7 @@ const Projects = () => {
       description: "A responsive educational website template with modern design, course sections, and interactive features for academic institutions.",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/k-keshav-aggarwal/Educational-Website-Template",
-      liveDemo: "https://educational-template.vercel.app",
+      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
       image: "/placeholder.svg"
     },
     {
@@ -33,7 +57,7 @@ const Projects = () => {
       description: "A classic interactive Tic-Tac-Toe game built with React featuring clean UI, game state management, and winning logic.",
       technologies: ["React", "CSS", "State Management"],
       github: "https://github.com/k-keshav-aggarwal/TIC-TAC-TOE",
-      liveDemo: "https://tictactoe-keshav.vercel.app",
+      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
       image: "/placeholder.svg"
     },
     {
@@ -41,7 +65,7 @@ const Projects = () => {
       description: "A precise digital stopwatch application with start, stop, reset functionality and lap time tracking capabilities.",
       technologies: ["JavaScript", "HTML", "CSS"],
       github: "https://github.com/k-keshav-aggarwal/StopWatch",
-      liveDemo: "https://stopwatch-keshav.vercel.app",
+      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
       image: "/placeholder.svg"
     },
     {
@@ -49,7 +73,7 @@ const Projects = () => {
       description: "A professional sponsors page for MLSC Tech Fest 2025 featuring sponsor showcases and partnership information.",
       technologies: ["React", "Node.js", "MongoDB"],
       github: "https://github.com/k-keshav-aggarwal/makeathon7-website",
-      liveDemo: "https://makeathon7.vercel.app",
+      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
       image: "/placeholder.svg"
     }
   ];
