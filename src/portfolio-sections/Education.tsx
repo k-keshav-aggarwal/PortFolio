@@ -12,7 +12,7 @@ const Education = () => {
       location: "Patiala, Punjab, India",
       bullets: [
         "Year III student · CGPA: 8.9 / 10.0",
-        "Achieved an AGPA of 9.26 / 10.00 during the second year.",
+        "Achieved an AGPA of 9.26 / 10.00 during the third year.",
         "Coursework: Data Structures & Algorithms, Machine Learning, DBMS, Operating Systems, Computer Networks"
       ]
     },

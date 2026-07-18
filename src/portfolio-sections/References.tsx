@@ -6,10 +6,19 @@ const References = () => {
   const references = [
     {
       name: "Dr. Chinmaya Panigrahy",
-      title: "Computer Science Assistant Professor, Thapar Institute of Engineering and Technology",
+      title: "Assistant Professor - II, TIET",
       quote: "A dedicated student with exceptional problem-solving skills and a keen interest in web development. Shows great promise in the field of computer science.",
       specialization: "Image Processing and Fractal Dimension",
-      contact: "Available upon request"
+      contact: "chinmaya.panigrahy@thapar.edu",
+      url: "https://csed.thapar.edu/facultydetails/MTQ4OA=="
+    },
+    {
+      name: "Dr. Jaskirat Singh",
+      title: "Assistant Professor - I, TIET",
+      quote: "Keshav is a bright student who consistently demonstrates technical proficiency and a strong drive for learning new technologies.",
+      specialization: "EEG Signal Processing, Cognitive Remediation",
+      contact: "jaskirat.singh@thapar.edu",
+      url: "https://csed.thapar.edu/facultydetails/MTQyNQ=="
     },
   ];
 
@@ -37,7 +46,11 @@ const References = () => {
                 </div>
               </div>
               
-              <p className="text-xs text-muted-foreground mt-4">{ref.contact}</p>
+              <div className="mt-4 pt-4 border-t border-white/5 space-y-1">
+                <p className="text-xs text-muted-foreground"><span className="text-primary/70">Specialization:</span> {ref.specialization}</p>
+                <p className="text-xs text-muted-foreground"><span className="text-primary/70">Email:</span> <a href={`mailto:${ref.contact}`} className="hover:text-primary transition-colors">{ref.contact}</a></p>
+                {ref.url && <p className="text-xs text-muted-foreground"><span className="text-primary/70">Profile:</span> <a href={ref.url} target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors truncate block">{ref.url}</a></p>}
+              </div>
             </div>
           ))}
         </div>

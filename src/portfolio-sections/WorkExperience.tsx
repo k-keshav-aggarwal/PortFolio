@@ -45,6 +45,25 @@ const WorkExperience = () => {
         "Contributed to community content and student engagement initiatives throughout the academic year."
       ]
     },
+    {
+      title: "Freelance Web Developer",
+      company: "Self-employed",
+      period: "January 2025 – Present",
+      location: "Remote",
+      bullets: [
+        "Design and develop websites for small businesses and individuals with custom solutions tailored to client needs.",
+        "Implement responsive designs and ensure cross-browser compatibility."
+      ]
+    },
+    {
+      title: "Content Intern",
+      company: "Studifysuccess Pvt. Ltd.",
+      period: "December 2024 – January 2025",
+      location: "Remote, India",
+      bullets: [
+        "Drafted blog posts and articles by researching topics, creating outlines, and writing engaging content for the platform's audience."
+      ]
+    },
   ];
 
   return (

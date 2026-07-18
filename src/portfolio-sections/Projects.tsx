@@ -59,7 +59,7 @@ const Projects = () => {
       title: "Personal Portfolio",
       description: "A responsive portfolio website built with React and Tailwind CSS to showcase projects, skills, and experience. Features dark mode, glassmorphism design, and smooth animations.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      github: "https://github.com/k-keshav-aggarwal/portfolio",
+      github: "https://github.com/k-keshav-aggarwal/PortFolio",
       liveDemo: "https://ka-pf.vercel.app/",
       image: "/placeholder.svg",
       badge: ""
@@ -68,7 +68,7 @@ const Projects = () => {
       title: "SpieleZone",
       description: "A full UI overhaul for Spiele Zone, including redesigned layouts, color schemes, typography, responsive behaviour, and interactive components. Delivered a polished, immersive experience aligned with the gaming aesthetic while maintaining performance and accessibility.",
       technologies: ["Front-End Development", "Web Development", "UI/UX"],
-      github: "",
+      github: "https://github.com/k-keshav-aggarwal/SpieleZone",
       liveDemo: "https://spiele-zone.vercel.app",
       image: "/placeholder.svg",
       badge: ""
@@ -77,7 +77,7 @@ const Projects = () => {
       title: "EcoSortAI",
       description: "An AI-powered waste sorting application that helps users categorize different types of waste for proper disposal and recycling.",
       technologies: ["JavaScript", "API Integration", "CSS"],
-      github: "https://github.com/k-keshav-aggarwal/ecosortai",
+      github: "https://github.com/k-keshav-aggarwal/EcoSortAI",
       liveDemo: "https://eco-sort-ai.vercel.app/",
       image: "/placeholder.svg",
       badge: ""

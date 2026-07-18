@@ -7,12 +7,12 @@ const WelcomePopup = () => {
 
   useEffect(() => {
     const hasSeenPopup = sessionStorage.getItem('hasSeenWelcomePopup');
-    
+
     if (!hasSeenPopup) {
       const timer = setTimeout(() => {
         setIsVisible(true);
       }, 1000);
-      
+
       return () => clearTimeout(timer);
     }
   }, []);
@@ -37,14 +37,14 @@ const WelcomePopup = () => {
             <X className="h-5 w-5" />
           </Button>
         </div>
-        
+
         <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-typing">
           <span className="text-gradient">Hello World!</span> <br />
           <span className="text-xl md:text-2xl mt-2 block opacity-90">I'm a Developer Who Loves Coding, Coffee, and Books</span>
         </h1>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
-          <div className="flex items-center gap-3 animate-fade-in" style={{animationDelay: '0.3s'}}>
+          <div className="flex items-center gap-3 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="bg-primary/20 p-2 rounded-full">
               <Code className="h-5 w-5 text-primary" />
             </div>
@@ -53,8 +53,8 @@ const WelcomePopup = () => {
               <p className="text-sm text-muted-foreground">Crafting elegant solutions</p>
             </div>
           </div>
-          
-          <div className="flex items-center gap-3 animate-fade-in" style={{animationDelay: '0.5s'}}>
+
+          <div className="flex items-center gap-3 animate-fade-in" style={{ animationDelay: '0.5s' }}>
             <div className="bg-primary/20 p-2 rounded-full">
               <Coffee className="h-5 w-5 text-primary" />
             </div>
@@ -63,8 +63,8 @@ const WelcomePopup = () => {
               <p className="text-sm text-muted-foreground">For those late night sessions</p>
             </div>
           </div>
-          
-          <div className="flex items-center gap-3 animate-fade-in" style={{animationDelay: '0.7s'}}>
+
+          <div className="flex items-center gap-3 animate-fade-in" style={{ animationDelay: '0.7s' }}>
             <div className="bg-primary/20 p-2 rounded-full">
               <BookOpen className="h-5 w-5 text-primary" />
             </div>
@@ -74,10 +74,10 @@ const WelcomePopup = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-8">
           <Button onClick={handleClose} className="w-full hover-glow">
-            Enter My Digital Space
+            Enter the Digital Space
           </Button>
         </div>
       </div>
