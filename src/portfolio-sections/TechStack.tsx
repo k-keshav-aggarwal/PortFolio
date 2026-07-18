@@ -1,5 +1,6 @@
 
 
+
 import { Layers } from 'lucide-react';
 
 const TechStack = () => {
@@ -7,36 +8,51 @@ const TechStack = () => {
     {
       name: "Frontend",
       technologies: [
-        { name: "HTML5", level: "Advanced" },
-        { name: "CSS3", level: "Advanced" },
+        { name: "HTML5 / CSS3", level: "Advanced" },
         { name: "JavaScript", level: "Intermediate" },
+        { name: "TypeScript", level: "Intermediate" },
         { name: "React", level: "Intermediate" },
+        { name: "Next.js", level: "Intermediate" },
         { name: "Tailwind CSS", level: "Advanced" },
       ]
     },
-        {
-      name: "Softwares",
+    {
+      name: "Backend & Database",
       technologies: [
-        { name: "AutoCad" , level: "Intermediate"},
-        { name: "Solidworks" , level: "Intermediate"},
+        { name: "Node.js", level: "Intermediate" },
+        { name: "Express.js", level: "Intermediate" },
+        { name: "PostgreSQL", level: "Intermediate" },
+        { name: "PL/pgSQL", level: "Intermediate" },
+        { name: "REST APIs", level: "Intermediate" },
+      ]
+    },
+    {
+      name: "Data Science & ML",
+      technologies: [
+        { name: "Python", level: "Advanced" },
+        { name: "Scikit-learn", level: "Intermediate" },
+        { name: "Pandas / NumPy", level: "Intermediate" },
+        { name: "EfficientNet-B2 / CNN", level: "Intermediate" },
+        { name: "Grad-CAM (XAI)", level: "Intermediate" },
+        { name: "Matplotlib / Seaborn", level: "Intermediate" },
       ]
     },
     {
       name: "Tools & Others",
       technologies: [
-        { name: "Git/GitHub", level: "Intermediate" },
+        { name: "Git / GitHub", level: "Intermediate" },
         { name: "VS Code", level: "Advanced" },
-        { name: "npm", level: "Intermediate" },
+        { name: "Vite", level: "Intermediate" },
+        { name: "Vercel", level: "Intermediate" },
         { name: "Figma", level: "Intermediate" },
-        { name: "Responsive Design", level: "Advanced" },
       ]
     },
     {
-      name: "Backend",
+      name: "Engineering Software",
       technologies: [
-        { name: "Node.js", level: "Beginner" },
-        { name: "Express", level: "Beginner" },
-        { name: "MongoDB", level: "Beginner" },
+        { name: "SOLIDWORKS", level: "Intermediate" },
+        { name: "Autodesk Tinkercad", level: "Intermediate" },
+        { name: "Arduino IDE", level: "Intermediate" },
       ]
     },
   ];

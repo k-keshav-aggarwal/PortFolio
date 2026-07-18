@@ -1,6 +1,6 @@
 
 
-import { Coffee, BookOpen, Code, Headphones, Camera, Map, Terminal, Laptop, Github, Waves } from 'lucide-react';
+import { Coffee, BookOpen, Code, Headphones, Camera, Map, Terminal, Laptop, GitFork, Waves } from 'lucide-react';
 
 const Hobbies = () => {
   const hobbies = [
@@ -21,7 +21,7 @@ const Hobbies = () => {
     },
     {
       name: "GitHub Contributions",
-      icon: Github,
+      icon: GitFork,
       description: "Making regular contributions to open-source projects and building my digital garden of code and documentation."
     },
     {

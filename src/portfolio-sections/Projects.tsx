@@ -1,40 +1,77 @@
 
-import { ExternalLink, Github, FolderOpen } from 'lucide-react';
+import { ExternalLink, FolderOpen } from 'lucide-react';
 import { Button } from '@/portfolio-sections/ui/button';
+
+const GithubIcon = ({ size = 14 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+  </svg>
+);
 
 const Projects = () => {
   const projects = [
     {
+      title: "Malaria Detection — CNN with Explainable AI",
+      description: "Trained an image classification model on the NIH dataset (27,558 images) achieving ~97% validation accuracy and AUC ≈ 0.99. Compared EfficientNet-B2 against MobileNetV2 and EfficientNet-B0 and selected the best model based on accuracy vs. inference speed. Integrated Grad-CAM for visual explainability of model predictions.",
+      technologies: ["Python", "EfficientNet-B2", "Grad-CAM", "TensorFlow/Keras", "NIH Dataset"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg",
+      badge: ""
+    },
+    {
+      title: "Decentralised Energy Trading Platform",
+      description: "Built a peer-to-peer energy marketplace from scratch in 24 hours as architect and team lead for a 3-person group; handled system design, task split, and final presentation to IEEE/TIET judges. Awarded 1st Place at BIOS Hackathon v1.0.",
+      technologies: ["React", "Next.js", "System Design", "P2P Architecture"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg",
+      badge: "🏆 1st Place — BIOS Hackathon v1.0"
+    },
+    {
+      title: "Thapar OLX — Campus Marketplace",
+      description: "Built a campus buy/sell platform with user accounts, listings, cart, messaging, and admin controls backed by a fully normalised (3NF) PostgreSQL database with referential constraints and PL/pgSQL triggers for automated integrity enforcement.",
+      technologies: ["PostgreSQL", "PL/pgSQL", "Node.js", "Express.js", "REST APIs"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg",
+      badge: ""
+    },
+    {
+      title: "Air Quality Index Prediction Engine",
+      description: "An end-to-end supervised AQI prediction model using pollutant indicators PM2.5, PM10, NO₂, SO₂, CO, and O₃. Achieved R² = 0.91 across 5-fold cross-validation, outperforming a linear regression baseline. Includes feature importance charts and a real-time prediction interface.",
+      technologies: ["Python", "Random Forest", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg",
+      badge: ""
+    },
+    {
+      title: "Student Performance Classification",
+      description: "A full ML pipeline predicting student performance using academic and behavioural features. Compared 4 classifiers (Logistic Regression, SVM, Random Forest, Gradient Boosting), resolved class imbalance with SMOTE, tuned the best model with GridSearchCV, and built an interactive prediction dashboard using ipywidgets.",
+      technologies: ["Python", "Gradient Boosting", "SMOTE", "GridSearchCV", "Scikit-learn"],
+      github: "",
+      liveDemo: "",
+      image: "/placeholder.svg",
+      badge: ""
+    },
+    {
       title: "Personal Portfolio",
-      description: "A responsive portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
-      technologies: ["React", "Tailwind CSS", "Responsive Design"],
+      description: "A responsive portfolio website built with React and Tailwind CSS to showcase projects, skills, and experience. Features dark mode, glassmorphism design, and smooth animations.",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       github: "https://github.com/k-keshav-aggarwal/portfolio",
       liveDemo: "https://ka-pf.vercel.app/",
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Air Quality Index Prediction with Random Forest",
-      description: "An end-to-end supervised AQI prediction model using pollutant indicators such as PM2.5, PM10, NO₂, SO₂, CO, and O₃. Includes preprocessing, feature scaling, Random Forest regression, feature importance analysis, residual diagnostics, and visualization. The model achieved strong generalization validated through RMSE and R² metrics across 5-fold CV, and includes saved artifacts plus a demo interface for real-time AQI prediction.",
-      technologies: ["Pandas", "Python", "Scikit-Learn", "Matplotlib", "NumPy", "Seaborn"],
-      github: "",
-      liveDemo: "",
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Student Performance Classification Project With Random Forest",
-      description: "A full ML pipeline predicting student performance using academic and behavioral features. Includes preprocessing, EDA, class balancing (SMOTE), model comparison across Logistic Regression, SVM, Random Forest, and Gradient Boosting. The best model was optimized with GridSearchCV and evaluated using F1-Macro, confusion matrix, and feature importance. Exported as a reusable .pkl file and integrated into an interactive prediction dashboard using ipywidgets.",
-      technologies: ["Pandas", "Python", "Scikit-Learn", "Matplotlib", "NumPy"],
-      github: "",
-      liveDemo: "",
-      image: "/placeholder.svg"
+      image: "/placeholder.svg",
+      badge: ""
     },
     {
       title: "SpieleZone",
-      description: "A full UI overhaul for Spiele Zone, including redesigned layouts, color schemes, typography, responsive behavior, and interactive components. Implemented custom visual feedback, refined navigation across gaming modules, and ensured consistency across devices. Delivered a polished, immersive experience aligned with the gaming aesthetic while maintaining performance and accessibility.",
+      description: "A full UI overhaul for Spiele Zone, including redesigned layouts, color schemes, typography, responsive behaviour, and interactive components. Delivered a polished, immersive experience aligned with the gaming aesthetic while maintaining performance and accessibility.",
       technologies: ["Front-End Development", "Web Development", "UI/UX"],
       github: "",
       liveDemo: "https://spiele-zone.vercel.app",
-      image: "/placeholder.svg"
+      image: "/placeholder.svg",
+      badge: ""
     },
     {
       title: "EcoSortAI",
@@ -42,7 +79,8 @@ const Projects = () => {
       technologies: ["JavaScript", "API Integration", "CSS"],
       github: "https://github.com/k-keshav-aggarwal/ecosortai",
       liveDemo: "https://eco-sort-ai.vercel.app/",
-      image: "/placeholder.svg"
+      image: "/placeholder.svg",
+      badge: ""
     },
     {
       title: "Education Website Template",
@@ -50,31 +88,8 @@ const Projects = () => {
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/k-keshav-aggarwal/Educational-Website-Template",
       liveDemo: "https://ka-pf.vercel.app/NotDeployed",
-      image: "/placeholder.svg"
-    },
-    {
-      title: "Tic-Tac-Toe Game",
-      description: "A classic interactive Tic-Tac-Toe game built with React featuring clean UI, game state management, and winning logic.",
-      technologies: ["React", "CSS", "State Management"],
-      github: "https://github.com/k-keshav-aggarwal/TIC-TAC-TOE",
-      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
-      image: "/placeholder.svg"
-    },
-    {
-      title: "StopWatch",
-      description: "A precise digital stopwatch application with start, stop, reset functionality and lap time tracking capabilities.",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/k-keshav-aggarwal/StopWatch",
-      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
-      image: "/placeholder.svg"
-    },
-    {
-      title: "MLSC Tech Fest-2025 Sponsors Page",
-      description: "A professional sponsors page for MLSC Tech Fest 2025 featuring sponsor showcases and partnership information.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com/k-keshav-aggarwal/makeathon7-website",
-      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
-      image: "/placeholder.svg"
+      image: "/placeholder.svg",
+      badge: ""
     }
   ];
 
@@ -87,12 +102,17 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <div key={index} className="glass-card rounded-lg overflow-hidden flex flex-col h-full hover:transform hover:scale-[1.02] transition-all duration-300">
-              <div className="h-40 sm:h-48 bg-secondary/50 overflow-hidden">
+              <div className="h-40 sm:h-48 bg-secondary/50 overflow-hidden relative">
                 <img 
                   src={project.image} 
                   alt={project.title} 
                   className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
                 />
+                {project.badge && (
+                  <div className="absolute top-3 left-3 bg-primary text-primary-foreground text-xs font-semibold px-2 py-1 rounded-full">
+                    {project.badge}
+                  </div>
+                )}
               </div>
               
               <div className="p-4 sm:p-6 flex-grow">
@@ -116,14 +136,14 @@ const Projects = () => {
               </div>
               
               <div className="p-4 sm:p-6 pt-0 flex gap-2 sm:gap-4">
-                <Button asChild variant="ghost" size="sm" className="flex-1 text-xs sm:text-sm hover:bg-primary/10">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1 sm:gap-2">
-                    <Github size={14} />
+                <Button asChild variant="ghost" size="sm" className="flex-1 text-xs sm:text-sm hover:bg-primary/10" disabled={!project.github}>
+                  <a href={project.github || '#'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1 sm:gap-2">
+                    <GithubIcon size={14} />
                     <span>Code</span>
                   </a>
                 </Button>
-                <Button asChild variant="ghost" size="sm" className="flex-1 text-xs sm:text-sm hover:bg-accent/10">
-                  <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1 sm:gap-2">
+                <Button asChild variant="ghost" size="sm" className="flex-1 text-xs sm:text-sm hover:bg-accent/10" disabled={!project.liveDemo}>
+                  <a href={project.liveDemo || '#'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1 sm:gap-2">
                     <ExternalLink size={14} />
                     <span>Demo</span>
                   </a>

@@ -2,46 +2,58 @@ import { Progress } from "@/portfolio-sections/ui/progress";
 
 const Skills = () => {
   const frontendSkills = [
-    { name: "HTML", level: 80 },
-    { name: "CSS", level: 75 },
-    { name: "JavaScript", level: 70 },
-    { name: "React.js", level: 65 },
-    { name: "TypeScript", level: 50 },
-    { name: "UI/UX", level: 65 },
-    { name: "Responsive Design", level: 75 }
+    { name: "HTML / CSS", level: 85 },
+    { name: "JavaScript", level: 75 },
+    { name: "React.js", level: 70 },
+    { name: "TypeScript", level: 60 },
+    { name: "Next.js", level: 60 },
+    { name: "Node.js / Express.js", level: 65 },
+    { name: "PostgreSQL / PL/pgSQL", level: 65 },
   ];
 
-  const otherSkills = [
-    { name: "Prompt Engineering", level: 75 },
-    { name: "Git & GitHub", level: 60 },
-    { name: "Collaborative R&D", level: 70 },
-    { name: "Research Project Management", level: 70 },
-    { name: "Leading Development Teams", level: 65 },
-    { name: "Early-Stage Startups", level: 60 },
-    { name: "Problem Solving", level: 70 }
+  const mlSkills = [
+    { name: "Python", level: 80 },
+    { name: "Scikit-learn", level: 75 },
+    { name: "Pandas / NumPy", level: 78 },
+    { name: "CNN (EfficientNet-B2)", level: 65 },
+    { name: "Random Forest / Gradient Boosting", level: 72 },
+    { name: "Feature Engineering / SMOTE", level: 68 },
+    { name: "Grad-CAM / Explainable AI", level: 60 },
   ];
 
   const devTools = [
+    "Git & GitHub",
     "VS Code",
-    "npm",
-    "Webpack",
     "Vite",
+    "npm",
+    "Vercel",
     "Chrome DevTools",
     "ESLint",
     "Prettier",
-    "GitHub Pages",
-    "Figma"
+    "Arduino IDE",
+    "Figma",
   ];
 
   const techLibraries = [
+    "Matplotlib",
+    "Seaborn",
     "NumPy",
     "Pandas",
     "Scikit-Learn",
-    "Matplotlib",
-    "Seaborn",
+    "SOLIDWORKS",
     "Autodesk Tinkercad",
-    "Arduino IDE",
-    "SOLIDWORKS"
+    "REST APIs",
+    "PL/pgSQL",
+  ];
+
+  const softSkills = [
+    "Prompt Engineering",
+    "System Design",
+    "Cross-functional Coordination",
+    "Technical Presentations",
+    "Stakeholder Communication",
+    "Research Project Management",
+    "Team Leadership",
   ];
 
   return (
@@ -55,7 +67,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div>
             <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
-              Front-end Development
+              Web & Backend Development
             </h3>
             <div className="space-y-4 sm:space-y-6">
               {frontendSkills.map((skill) => (
@@ -74,10 +86,10 @@ const Skills = () => {
 
           <div>
             <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6 mt-8 lg:mt-0">
-              Other Skills
+              Data Science & Machine Learning
             </h3>
             <div className="space-y-4 sm:space-y-6">
-              {otherSkills.map((skill) => (
+              {mlSkills.map((skill) => (
                 <div key={skill.name}>
                   <div className="flex justify-between mb-2">
                     <span className="text-sm sm:text-base">{skill.name}</span>
@@ -92,33 +104,51 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mt-12 sm:mt-16">
-          <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
-            Development Tools
-          </h3>
-          <div className="flex flex-wrap gap-2 sm:gap-3">
-            {devTools.map((tech) => (
-              <span
-                key={tech}
-                className="px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary/50 rounded-full text-xs sm:text-sm border border-white/5 hover:border-primary/50 transition-colors"
-              >
-                {tech}
-              </span>
-            ))}
+        <div className="mt-12 sm:mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+          <div>
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
+              Development Tools
+            </h3>
+            <div className="flex flex-wrap gap-2 sm:gap-3">
+              {devTools.map((tech) => (
+                <span
+                  key={tech}
+                  className="px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary/50 rounded-full text-xs sm:text-sm border border-white/5 hover:border-primary/50 transition-colors"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+
+            <h3 className="text-lg sm:text-xl font-semibold mt-8 mb-4 sm:mb-6">
+              Technical Libraries & Engineering Tools
+            </h3>
+            <div className="flex flex-wrap gap-2 sm:gap-3">
+              {techLibraries.map((tech) => (
+                <span
+                  key={tech}
+                  className="px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary/50 rounded-full text-xs sm:text-sm border border-white/5 hover:border-primary/50 transition-colors"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
 
-          <h3 className="text-lg sm:text-xl font-semibold mt-8 mb-4 sm:mb-6">
-            Technical Libraries & Engineering Tools
-          </h3>
-          <div className="flex flex-wrap gap-2 sm:gap-3">
-            {techLibraries.map((tech) => (
-              <span
-                key={tech}
-                className="px-3 sm:px-4 py-1.5 sm:py-2 bg-secondary/50 rounded-full text-xs sm:text-sm border border-white/5 hover:border-primary/50 transition-colors"
-              >
-                {tech}
-              </span>
-            ))}
+          <div>
+            <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
+              Professional Skills
+            </h3>
+            <div className="flex flex-wrap gap-2 sm:gap-3">
+              {softSkills.map((skill) => (
+                <span
+                  key={skill}
+                  className="px-3 sm:px-4 py-1.5 sm:py-2 bg-accent/10 rounded-full text-xs sm:text-sm border border-accent/20 hover:border-accent/50 transition-colors text-accent"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
