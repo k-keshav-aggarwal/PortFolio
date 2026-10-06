@@ -6,6 +6,18 @@ import { Award } from 'lucide-react';
 const Certificates = () => {
 const certificates = [
   {
+    name: "AI for Sustainability Virtual Internship",
+    issuer: "1M1B · Supported by AICTE in collaboration with IBM SkillsBuild",
+    date: "September 2026",
+    description: "Completed virtual internship on the National Internship Portal (AICTE ID: INTERNSHIP_17828984086a44dee80acf6). Built practical solutions leveraging Agentic AI and RAG systems aligned with UN SDGs."
+  },
+  {
+    name: "IBM SkillsBuild — AI for Sustainability",
+    issuer: "IBM SkillsBuild",
+    date: "August 2026",
+    description: "Certificate of Completion (PLAN-56138075980A) for hands-on curriculum in applied AI, responsible AI, and RAG architectures."
+  },
+  {
     name: "BIOS Hackathon v1.0 — 1st Place (Overclocked Track)",
     issuer: "Department of Computer Science & Engineering, TIET with IEEE Student Branch TIET",
     date: "November 2025",
@@ -106,7 +118,7 @@ const certificates = [
   return (
     <section id="certificates" className="py-20 bg-background/50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-2 text-gradient">Achievements & Certifications</h2>
+        <h2 className="text-3xl font-bold mb-2 text-gradient">Hackathons & Certifications</h2>
         <div className="h-1 w-20 bg-primary mb-12"></div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

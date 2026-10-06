@@ -20,6 +20,11 @@ const Languages = () => {
 
   const programmingLanguages = [
     {
+      name: "Python",
+      proficiency: "Advanced",
+      level: 90
+    },
+    {
       name: "JavaScript",
       proficiency: "Advanced",
       level: 85
@@ -27,42 +32,37 @@ const Languages = () => {
     {
       name: "TypeScript",
       proficiency: "Intermediate",
-      level: 70
+      level: 78
     },
     {
-      name: "Python",
+      name: "Java",
       proficiency: "Intermediate",
       level: 75
     },
     {
-      name: "Java",
-      proficiency: "Beginner",
-      level: 45
-    },
-    {
       name: "C++",
-      proficiency: "Beginner",
-      level: 50
-    },
-    {
-      name: "HTML",
-      proficiency: "Advanced",
-      level: 90
-    },
-    {
-      name: "CSS",
-      proficiency: "Advanced",
-      level: 85
-    },
-    {
-      name: "React",
       proficiency: "Intermediate",
       level: 75
     },
     {
       name: "C",
-      proficiency: "Beginner",
-      level: 50
+      proficiency: "Intermediate",
+      level: 70
+    },
+    {
+      name: "SQL",
+      proficiency: "Advanced",
+      level: 85
+    },
+    {
+      name: "PL/pgSQL",
+      proficiency: "Intermediate",
+      level: 80
+    },
+    {
+      name: "HTML / CSS",
+      proficiency: "Advanced",
+      level: 90
     }
   ];
 

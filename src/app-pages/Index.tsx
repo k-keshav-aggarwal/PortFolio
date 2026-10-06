@@ -8,6 +8,7 @@ import Education from '@/portfolio-sections/Education';
 import TechStack from '@/portfolio-sections/TechStack';
 import Startup from '@/portfolio-sections/Startup';
 import Skills from '@/portfolio-sections/Skills';
+import IntellectualProperty from '@/portfolio-sections/IntellectualProperty';
 import Certificates from '@/portfolio-sections/Certificates';
 import Projects from '@/portfolio-sections/Projects';
 import Publications from '@/portfolio-sections/Publications';
@@ -32,8 +33,9 @@ const Index = () => {
       <TechStack />
       <Startup />
       <Skills />
-      <Certificates />
+      <IntellectualProperty />
       <Projects />
+      <Certificates />
       <Publications />
       <Hobbies />
       <Languages />

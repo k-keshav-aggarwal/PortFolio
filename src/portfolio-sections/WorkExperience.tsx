@@ -5,24 +5,35 @@ import { Briefcase } from 'lucide-react';
 const WorkExperience = () => {
   const experiences = [
     {
-      title: "Teaching and Lab Intern",
-      company: "IECS (Management Infotech System)",
-      period: "June 2026 – July 2026",
-      location: "Hisar, India",
-      bullets: [
-        "Conducted hands-on laboratory sessions for 80+ students across multiple batches in Python, C, and Java, guiding students through coding exercises and practical implementations.",
-        "Explained programming concepts, resolved technical doubts, assisted with debugging, and provided one-on-one mentoring to strengthen students' problem-solving and coding skills."
-      ]
-    },
-    {
       title: "Student Intern – Center of Excellence in Data Science and AI (CoDSAI)",
       company: "Thapar Institute of Engineering & Technology (TIET)",
       period: "September 2025 – Present",
       location: "Patiala, India",
       bullets: [
-        "Selected under the CoDSAI Seed Funding Program for a faculty-led research project on AI-assisted community energy sharing.",
-        "Developing AI-driven methods to analyse stakeholder value propositions, energy-sharing scenarios, and decision-support models for sustainable energy systems.",
-        "Collaborating with faculty researchers on literature review, data analysis, and prototype development while contributing to ongoing research deliverables."
+        "Seed Funding Research Project: AI-assisted Value Proposition for Stakeholders in Community Energy Sharing.",
+        "Selected as a Student Intern under the CoDSAI Seed Funding Program for a faculty-led research project on AI-assisted community energy sharing.",
+        "Developing AI-driven methods to analyze stakeholder value propositions and decision-support models for sustainable energy systems, collaborating with faculty on literature review and prototype development."
+      ]
+    },
+    {
+      title: "Teaching and Lab Intern",
+      company: "IECS (Management Infotech System)",
+      period: "May 2026 – July 2026",
+      location: "Hisar, India",
+      bullets: [
+        "Conducted hands-on laboratory sessions for 160+ students across multiple batches in Python, C, and Java, guiding students through coding exercises and practical implementations.",
+        "Explained programming concepts, resolved technical doubts, assisted with debugging, and provided one-on-one mentoring to strengthen students' problem-solving and coding skills."
+      ]
+    },
+    {
+      title: "AI for Sustainability Virtual Intern",
+      company: "1M1B · Supported by AICTE & IBM SkillsBuild",
+      period: "July 2026 – September 2026",
+      location: "Remote, India",
+      bullets: [
+        "Completed AICTE-supported internship listed on the National Internship Portal, Ministry of Education (ID: INTERNSHIP_17828984086a44dee80acf6).",
+        "Applied Agentic AI systems and Retrieval-Augmented Generation (RAG) architectures to solve real-world problems aligned with UN SDGs.",
+        "Completed IBM SkillsBuild curriculum on foundational AI models, responsible AI use, and impact-driven solution design."
       ]
     },
     {

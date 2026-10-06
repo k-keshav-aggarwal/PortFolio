@@ -2,58 +2,63 @@ import { Progress } from "@/portfolio-sections/ui/progress";
 
 const Skills = () => {
   const frontendSkills = [
-    { name: "HTML / CSS", level: 85 },
-    { name: "JavaScript", level: 75 },
-    { name: "React.js", level: 70 },
-    { name: "TypeScript", level: 60 },
-    { name: "Next.js", level: 60 },
-    { name: "Node.js / Express.js", level: 65 },
-    { name: "PostgreSQL / PL/pgSQL", level: 65 },
+    { name: "React.js / Next.js", level: 82 },
+    { name: "Node.js / Express.js", level: 78 },
+    { name: "PostgreSQL / PL/pgSQL", level: 80 },
+    { name: "REST APIs", level: 85 },
+    { name: "JavaScript / TypeScript", level: 85 },
+    { name: "HTML5 / CSS3", level: 90 },
+    { name: "Vite", level: 82 },
   ];
 
   const mlSkills = [
-    { name: "Python", level: 80 },
-    { name: "Scikit-learn", level: 75 },
-    { name: "Pandas / NumPy", level: 78 },
-    { name: "CNN (EfficientNet-B2)", level: 65 },
-    { name: "Random Forest / Gradient Boosting", level: 72 },
-    { name: "Feature Engineering / SMOTE", level: 68 },
-    { name: "Grad-CAM / Explainable AI", level: 60 },
+    { name: "Python", level: 90 },
+    { name: "Agentic AI & RAG Systems", level: 84 },
+    { name: "Scikit-learn", level: 82 },
+    { name: "Pandas / NumPy", level: 85 },
+    { name: "CNN (EfficientNet-B2)", level: 75 },
+    { name: "Random Forest / Gradient Boosting", level: 80 },
+    { name: "Grad-CAM (Explainable AI)", level: 74 },
+    { name: "SMOTE / Feature Engineering", level: 78 },
   ];
 
   const devTools = [
-    "Git & GitHub",
+    "Git",
+    "GitHub",
+    "Vercel",
     "VS Code",
     "Vite",
-    "npm",
-    "Vercel",
+    "Arduino IDE",
+    "SOLIDWORKS",
+    "Autodesk Tinkercad",
+    "Prompt Engineering",
     "Chrome DevTools",
     "ESLint",
     "Prettier",
-    "Arduino IDE",
-    "Figma",
   ];
 
   const techLibraries = [
+    "Agentic AI",
+    "RAG Systems",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
     "Matplotlib",
     "Seaborn",
-    "NumPy",
-    "Pandas",
-    "Scikit-Learn",
-    "SOLIDWORKS",
-    "Autodesk Tinkercad",
     "REST APIs",
+    "PostgreSQL",
     "PL/pgSQL",
+    "Grad-CAM",
+    "SMOTE",
   ];
 
   const softSkills = [
-    "Prompt Engineering",
     "System Design",
-    "Cross-functional Coordination",
     "Technical Presentations",
+    "Cross-functional Coordination",
     "Stakeholder Communication",
-    "Research Project Management",
-    "Team Leadership",
+    "Research & Team Leadership",
+    "Prompt Engineering",
   ];
 
   return (
