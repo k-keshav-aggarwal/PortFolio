@@ -38,10 +38,10 @@ const WelcomePopup = () => {
           </Button>
         </div>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-typing">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-typing">
           <span className="text-gradient">Hello World!</span> <br />
           <span className="text-xl md:text-2xl mt-2 block opacity-90">I'm a Developer Who Loves Coding, Coffee, and Books</span>
-        </h1>
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="flex items-center gap-3 animate-fade-in" style={{ animationDelay: '0.3s' }}>

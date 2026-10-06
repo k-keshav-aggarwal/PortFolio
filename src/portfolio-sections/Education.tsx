@@ -7,7 +7,7 @@ const Education = () => {
   const educationItems = [
     {
       degree: "Bachelor of Technology — Computer Science Engineering",
-      institution: "Thapar Institute of Engineering and Technology",
+      institution: "Thapar Institute of Engineering and Technology (TIET)",
       period: "August 2024 – May 2028",
       location: "Patiala, Punjab, India",
       bullets: [

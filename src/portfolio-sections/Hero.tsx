@@ -42,8 +42,8 @@ const Hero = () => {
             <span className="text-gradient text-3xl sm:text-4xl md:text-5xl lg:text-7xl">Keshav Aggarwal</span>
             <span className="bg-primary/10 text-primary text-xs sm:text-sm py-1 px-2 rounded inline-block">dev</span>
           </h1>
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold mt-3 sm:mt-4 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            CS Student · Full-Stack Developer · ML Practitioner
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mt-3 sm:mt-4 text-muted-foreground animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            CS Student at <span className="text-foreground">TIET (Thapar)</span> · Full-Stack Developer · ML Practitioner
           </h2>
           <div className="mt-4 sm:mt-6">
             <div className="font-mono text-xs sm:text-sm md:text-base text-muted-foreground bg-secondary/50 p-3 sm:p-4 rounded-md border border-accent/20 animate-fade-in overflow-x-auto" style={{ animationDelay: '0.3s' }}>
@@ -64,7 +64,7 @@ const Hero = () => {
             <a href="https://github.com/k-keshav-aggarwal" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift touch-target" aria-label="GitHub Profile">
               <GithubIcon size={24} />
             </a>
-            <a href="https://linkedin.com/agg-keshav" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift touch-target" aria-label="LinkedIn Profile">
+            <a href="https://linkedin.com/in/agg-keshav" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors hover-lift touch-target" aria-label="LinkedIn Profile">
               <LinkedinIcon size={24} />
             </a>
           </div>

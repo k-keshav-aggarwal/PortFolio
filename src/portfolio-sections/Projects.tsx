@@ -1,5 +1,4 @@
-
-import { ExternalLink, FolderOpen } from 'lucide-react';
+import { ExternalLink, FolderOpen, Brain, Zap, Database, Wind, GraduationCap, Layout, Gamepad2, Leaf, Sparkles } from 'lucide-react';
 import { Button } from '@/portfolio-sections/ui/button';
 
 const GithubIcon = ({ size = 14 }: { size?: number }) => (
@@ -14,45 +13,55 @@ const Projects = () => {
       title: "Malaria Detection — CNN with Explainable AI",
       description: "Trained an image classification model on the NIH dataset (27,558 images) achieving ~97% validation accuracy and AUC ≈ 0.99. Compared EfficientNet-B2 against MobileNetV2 and EfficientNet-B0 and selected the best model based on accuracy vs. inference speed. Integrated Grad-CAM for visual explainability of model predictions.",
       technologies: ["Python", "EfficientNet-B2", "Grad-CAM", "TensorFlow/Keras", "NIH Dataset"],
-      github: "",
+      github: "https://github.com/k-keshav-aggarwal",
       liveDemo: "",
-      image: "/placeholder.svg",
+      icon: Brain,
+      themeColor: "from-rose-500/20 via-pink-500/10 to-indigo-500/20",
+      accentColor: "text-rose-400",
       badge: ""
     },
     {
       title: "Decentralised Energy Trading Platform",
       description: "Built a peer-to-peer energy marketplace from scratch in 24 hours as architect and team lead for a 3-person group; handled system design, task split, and final presentation to IEEE/TIET judges. Awarded 1st Place at BIOS Hackathon v1.0.",
       technologies: ["React", "Next.js", "System Design", "P2P Architecture"],
-      github: "",
+      github: "https://github.com/k-keshav-aggarwal",
       liveDemo: "",
-      image: "/placeholder.svg",
+      icon: Zap,
+      themeColor: "from-amber-500/20 via-yellow-500/10 to-orange-500/20",
+      accentColor: "text-amber-400",
       badge: "🏆 1st Place — BIOS Hackathon v1.0"
     },
     {
       title: "Thapar OLX — Campus Marketplace",
       description: "Built a campus buy/sell platform with user accounts, listings, cart, messaging, and admin controls backed by a fully normalised (3NF) PostgreSQL database with referential constraints and PL/pgSQL triggers for automated integrity enforcement.",
       technologies: ["PostgreSQL", "PL/pgSQL", "Node.js", "Express.js", "REST APIs"],
-      github: "",
+      github: "https://github.com/k-keshav-aggarwal",
       liveDemo: "",
-      image: "/placeholder.svg",
+      icon: Database,
+      themeColor: "from-blue-500/20 via-indigo-500/10 to-cyan-500/20",
+      accentColor: "text-blue-400",
       badge: ""
     },
     {
       title: "Air Quality Index Prediction Engine",
       description: "An end-to-end supervised AQI prediction model using pollutant indicators PM2.5, PM10, NO₂, SO₂, CO, and O₃. Achieved R² = 0.91 across 5-fold cross-validation, outperforming a linear regression baseline. Includes feature importance charts and a real-time prediction interface.",
       technologies: ["Python", "Random Forest", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
-      github: "",
+      github: "https://github.com/k-keshav-aggarwal",
       liveDemo: "",
-      image: "/placeholder.svg",
+      icon: Wind,
+      themeColor: "from-teal-500/20 via-emerald-500/10 to-cyan-500/20",
+      accentColor: "text-teal-400",
       badge: ""
     },
     {
       title: "Student Performance Classification",
       description: "A full ML pipeline predicting student performance using academic and behavioural features. Compared 4 classifiers (Logistic Regression, SVM, Random Forest, Gradient Boosting), resolved class imbalance with SMOTE, tuned the best model with GridSearchCV, and built an interactive prediction dashboard using ipywidgets.",
       technologies: ["Python", "Gradient Boosting", "SMOTE", "GridSearchCV", "Scikit-learn"],
-      github: "",
+      github: "https://github.com/k-keshav-aggarwal",
       liveDemo: "",
-      image: "/placeholder.svg",
+      icon: GraduationCap,
+      themeColor: "from-purple-500/20 via-fuchsia-500/10 to-violet-500/20",
+      accentColor: "text-purple-400",
       badge: ""
     },
     {
@@ -61,8 +70,10 @@ const Projects = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
       github: "https://github.com/k-keshav-aggarwal/PortFolio",
       liveDemo: "https://ka-pf.vercel.app/",
-      image: "/placeholder.svg",
-      badge: ""
+      icon: Layout,
+      themeColor: "from-cyan-500/20 via-sky-500/10 to-blue-500/20",
+      accentColor: "text-cyan-400",
+      badge: "✨ Live"
     },
     {
       title: "SpieleZone",
@@ -70,8 +81,10 @@ const Projects = () => {
       technologies: ["Front-End Development", "Web Development", "UI/UX"],
       github: "https://github.com/k-keshav-aggarwal/SpieleZone",
       liveDemo: "https://spiele-zone.vercel.app",
-      image: "/placeholder.svg",
-      badge: ""
+      icon: Gamepad2,
+      themeColor: "from-violet-500/20 via-purple-500/10 to-pink-500/20",
+      accentColor: "text-violet-400",
+      badge: "✨ Live"
     },
     {
       title: "EcoSortAI",
@@ -79,16 +92,20 @@ const Projects = () => {
       technologies: ["JavaScript", "API Integration", "CSS"],
       github: "https://github.com/k-keshav-aggarwal/EcoSortAI",
       liveDemo: "https://eco-sort-ai.vercel.app/",
-      image: "/placeholder.svg",
-      badge: ""
+      icon: Leaf,
+      themeColor: "from-emerald-500/20 via-green-500/10 to-teal-500/20",
+      accentColor: "text-emerald-400",
+      badge: "✨ Live"
     },
     {
       title: "Education Website Template",
       description: "A responsive educational website template with modern design, course sections, and interactive features for academic institutions.",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       github: "https://github.com/k-keshav-aggarwal/Educational-Website-Template",
-      liveDemo: "https://ka-pf.vercel.app/NotDeployed",
-      image: "/placeholder.svg",
+      liveDemo: "",
+      icon: Sparkles,
+      themeColor: "from-sky-500/20 via-blue-500/10 to-indigo-500/20",
+      accentColor: "text-sky-400",
       badge: ""
     }
   ];
@@ -102,14 +119,12 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <div key={index} className="glass-card rounded-lg overflow-hidden flex flex-col h-full hover:transform hover:scale-[1.02] transition-all duration-300">
-              <div className="h-40 sm:h-48 bg-secondary/50 overflow-hidden relative">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
-                />
+              <div className={`h-40 sm:h-44 bg-gradient-to-br ${project.themeColor} border-b border-white/5 relative overflow-hidden flex items-center justify-center group`}>
+                <div className={`p-4 rounded-2xl bg-background/60 backdrop-blur-md border border-white/10 ${project.accentColor} transform group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                  <project.icon size={36} />
+                </div>
                 {project.badge && (
-                  <div className="absolute top-3 left-3 bg-primary text-primary-foreground text-xs font-semibold px-2 py-1 rounded-full">
+                  <div className="absolute top-3 left-3 bg-primary text-primary-foreground text-xs font-semibold px-2.5 py-1 rounded-full shadow-md">
                     {project.badge}
                   </div>
                 )}

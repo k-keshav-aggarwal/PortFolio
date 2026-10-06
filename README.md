@@ -66,6 +66,16 @@ This project can be deployed to:
 
 Simply run `npm run build` and deploy the `dist` folder.
 
+## 🌐 Live Website
+
+- **Portfolio**: [https://ka-pf.vercel.app/](https://ka-pf.vercel.app/)
+- **GitHub**: [k-keshav-aggarwal](https://github.com/k-keshav-aggarwal)
+- **LinkedIn**: [agg-keshav](https://linkedin.com/in/agg-keshav)
+
 ## 👨‍💻 About
 
-Portfolio website for Keshav Aggarwal, a Computer Science student at Thapar Institute of Engineering and Technology, passionate about web development and modern technologies.
+Official portfolio of **Keshav Aggarwal**, a Computer Science student at **Thapar Institute of Engineering and Technology (TIET)**, Patiala, India. Full-Stack Developer, AI/ML practitioner, and software enthusiast.
+
+- 🎓 **Education**: B.Tech in Computer Science Engineering, Thapar Institute of Engineering and Technology (2024–2028)
+- 💻 **Core Stack**: React, TypeScript, Node.js, Tailwind CSS, Python, PostgreSQL
+- 🏆 **Achievements**: 1st Place at BIOS Hackathon v1.0, 1st Place at SYNAPSE Ideathon, CoDSAI Seed Funding Intern at TIET

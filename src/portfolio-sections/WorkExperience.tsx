@@ -16,7 +16,7 @@ const WorkExperience = () => {
     },
     {
       title: "Student Intern – Center of Excellence in Data Science and AI (CoDSAI)",
-      company: "Thapar Institute of Engineering & Technology",
+      company: "Thapar Institute of Engineering & Technology (TIET)",
       period: "September 2025 – Present",
       location: "Patiala, India",
       bullets: [
@@ -37,7 +37,7 @@ const WorkExperience = () => {
     },
     {
       title: "Executive Member — Microsoft Learn Student Chapter",
-      company: "Thapar Institute of Engineering & Technology",
+      company: "Microsoft Learn Student Chapter, TIET",
       period: "September 2024 – September 2025",
       location: "Patiala, India",
       bullets: [
